@@ -45,20 +45,20 @@ div.Durge {
   transform: scale(1.2,1.4);
 }*/
 
-body{
-  /* The image used */
+/* body{
+  
   background-image: url(./Imagenes/Logo.jpg) ;
-  /* Full height */
+ 
   height: 100%;
-  /* Center and scale the image nicely */
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
-}
+} */
 
-body::before{
+/* body::before{
   content: '';
   display: block;
   background: inherit;
@@ -67,7 +67,7 @@ body::before{
   left: 0; top: 0;
   filter: blur(15px);
   transform: scale(1.2,1.4);
-}
+} */
 
 .vdivide [class*='col-6']:not(:last-child):after {
     background: #e0e0e0;
